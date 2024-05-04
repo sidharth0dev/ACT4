@@ -20,7 +20,7 @@ jobs:
         with:
           name: production-files
           path: ./dist
-# Deploy Job
+    # Deploy Job
   deploy:
     # Add a dependency to the build job
     needs: build
